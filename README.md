@@ -8,4 +8,4 @@
 
 
 
-![image](https://github.com/Rachel829/RLPicturePreview/blob/master/RLPicturePreview/演示动画.gif)
+![image](https://github.com/Rachel829/RLPicturePreview/blob/master/RLPicturePreview/demo.gif)
