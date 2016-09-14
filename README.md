@@ -6,3 +6,6 @@
 －－长图滑动预览 <br/>
 －－双击放大等功能
 
+
+
+![image](https://github.com/Rachel829/RLPicturePreview/blob/master/RLPicturePreview/演示动画.gif)
