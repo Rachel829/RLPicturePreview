@@ -16,7 +16,6 @@
 @property (nonatomic,strong) UITapGestureRecognizer *doubleTap;
 @property (nonatomic,strong) UITapGestureRecognizer *singleTap;
 
-
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) UIScrollView *scrollView;
 

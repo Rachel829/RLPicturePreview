@@ -21,6 +21,7 @@
 		CCCB3FD31D88F78800C4080F /* RLPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB3FCE1D88F78800C4080F /* RLPictureView.m */; };
 		CCCB3FD41D88F78800C4080F /* RLPreviewPicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB3FD01D88F78800C4080F /* RLPreviewPicturesViewController.m */; };
 		CCCB3FD51D88F78800C4080F /* UIView+RLSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB3FD21D88F78800C4080F /* UIView+RLSize.m */; };
+		CCE672A51D8944DF00E0DF29 /* 演示动画.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCE672A41D8944DF00E0DF29 /* 演示动画.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		CCCB3FD01D88F78800C4080F /* RLPreviewPicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLPreviewPicturesViewController.m; sourceTree = "<group>"; };
 		CCCB3FD11D88F78800C4080F /* UIView+RLSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RLSize.h"; sourceTree = "<group>"; };
 		CCCB3FD21D88F78800C4080F /* UIView+RLSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RLSize.m"; sourceTree = "<group>"; };
+		CCE672A41D8944DF00E0DF29 /* 演示动画.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "演示动画.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		CCCB3FAA1D88F74D00C4080F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCE672A31D8944C100E0DF29 /* gif */,
 				CCCB3FC11D88F76900C4080F /* images */,
 				CCCB3FAB1D88F74D00C4080F /* main.m */,
 			);
@@ -123,6 +126,14 @@
 				CCCB3FD21D88F78800C4080F /* UIView+RLSize.m */,
 			);
 			path = RLPreviewPicture;
+			sourceTree = "<group>";
+		};
+		CCE672A31D8944C100E0DF29 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				CCE672A41D8944DF00E0DF29 /* 演示动画.gif */,
+			);
+			name = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE672A51D8944DF00E0DF29 /* 演示动画.gif in Resources */,
 				CCCB3FBA1D88F74D00C4080F /* LaunchScreen.storyboard in Resources */,
 				CCCB3FCB1D88F76900C4080F /* 5.jpg in Resources */,
 				CCCB3FCA1D88F76900C4080F /* 4.jpg in Resources */,
@@ -354,6 +366,7 @@
 				CCCB3FC01D88F74D00C4080F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
