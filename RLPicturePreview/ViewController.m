@@ -25,18 +25,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+   
+    [self setUpData];
+    [self setUpUI];
+    
+    
+}
+
+
+-(void)setUpData{
+
+
     
     _imagesArr = [NSMutableArray arrayWithCapacity:0];
     
-    self.view.backgroundColor = [UIColor whiteColor];
     for (int i = 1; i < 6; i++) {
         NSString *imageName = [NSString stringWithFormat:@"%i.jpg",i];
-        UIImage *img = [UIImage imageNamed:imageName];
-        [_imagesArr addObject:img];
+//        UIImage *img = [UIImage imageNamed:imageName];
+        [_imagesArr addObject:imageName];
     }
+
+}
+
+
+-(void)setUpUI{
     
-    
-    
+    self.view.backgroundColor = [UIColor whiteColor];
+
+
     UIButton *pushToPreviewBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     
     pushToPreviewBtn.width = 200;
@@ -47,8 +63,14 @@
     [pushToPreviewBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [pushToPreviewBtn addTarget:self action:@selector(pushToPreviewVC) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pushToPreviewBtn];
+
     
+
 }
+
+
+
+
 
 
 -(void)pushToPreviewVC{
@@ -59,13 +81,7 @@
     
     [self.navigationController pushViewController:previewVC animated:YES];
     
-    //    RLPictureView *pictureView = [[RLPictureView alloc] initWithFrame:self.view.bounds];
-    
-    //
-    //    [pictureView setImage:[UIImage imageNamed:@"2.jpg"]];
-    //    [self.view addSubview:pictureView];
-    //
-    //    [self.view bringSubviewToFront:pictureView];
+
     
 }
 

@@ -87,11 +87,12 @@
   
     RLPictureView *pictureView = [collectionView dequeueReusableCellWithReuseIdentifier:@"RLPictureView" forIndexPath:indexPath];
     
-    [pictureView setImage:_imageArray[indexPath.row]];
+    [pictureView setImage:[UIImage imageNamed:_imageArray[indexPath.row]]];
+    
     
     pictureView.singleTapBlock = ^(UITapGestureRecognizer *recognizer){
     
-        NSLog(@"dsfdsf");
+        NSLog(@"测试一下 ");
     
     };
     
