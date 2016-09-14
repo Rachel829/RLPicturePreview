@@ -22,6 +22,7 @@
 		CCCB3FD41D88F78800C4080F /* RLPreviewPicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB3FD01D88F78800C4080F /* RLPreviewPicturesViewController.m */; };
 		CCCB3FD51D88F78800C4080F /* UIView+RLSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB3FD21D88F78800C4080F /* UIView+RLSize.m */; };
 		CCE672A51D8944DF00E0DF29 /* 演示动画.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCE672A41D8944DF00E0DF29 /* 演示动画.gif */; };
+		CCE672A71D8946DE00E0DF29 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCE672A61D8946DE00E0DF29 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		CCCB3FD11D88F78800C4080F /* UIView+RLSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RLSize.h"; sourceTree = "<group>"; };
 		CCCB3FD21D88F78800C4080F /* UIView+RLSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RLSize.m"; sourceTree = "<group>"; };
 		CCE672A41D8944DF00E0DF29 /* 演示动画.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "演示动画.gif"; sourceTree = "<group>"; };
+		CCE672A61D8946DE00E0DF29 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		CCE672A31D8944C100E0DF29 /* gif */ = {
 			isa = PBXGroup;
 			children = (
+				CCE672A61D8946DE00E0DF29 /* demo.gif */,
 				CCE672A41D8944DF00E0DF29 /* 演示动画.gif */,
 			);
 			name = gif;
@@ -200,6 +203,7 @@
 				CCCB3FC71D88F76900C4080F /* 1.jpg in Resources */,
 				CCCB3FC81D88F76900C4080F /* 2.jpg in Resources */,
 				CCCB3FC91D88F76900C4080F /* 3.jpg in Resources */,
+				CCE672A71D8946DE00E0DF29 /* demo.gif in Resources */,
 				CCCB3FB71D88F74D00C4080F /* Assets.xcassets in Resources */,
 				CCCB3FB51D88F74D00C4080F /* Main.storyboard in Resources */,
 			);
