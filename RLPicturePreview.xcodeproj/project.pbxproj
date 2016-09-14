@@ -13,6 +13,14 @@
 		CCCB3FB51D88F74D00C4080F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCB3FB31D88F74D00C4080F /* Main.storyboard */; };
 		CCCB3FB71D88F74D00C4080F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCB3FB61D88F74D00C4080F /* Assets.xcassets */; };
 		CCCB3FBA1D88F74D00C4080F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCB3FB81D88F74D00C4080F /* LaunchScreen.storyboard */; };
+		CCCB3FC71D88F76900C4080F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCCB3FC21D88F76900C4080F /* 1.jpg */; };
+		CCCB3FC81D88F76900C4080F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCCB3FC31D88F76900C4080F /* 2.jpg */; };
+		CCCB3FC91D88F76900C4080F /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCCB3FC41D88F76900C4080F /* 3.jpg */; };
+		CCCB3FCA1D88F76900C4080F /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCCB3FC51D88F76900C4080F /* 4.jpg */; };
+		CCCB3FCB1D88F76900C4080F /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCCB3FC61D88F76900C4080F /* 5.jpg */; };
+		CCCB3FD31D88F78800C4080F /* RLPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB3FCE1D88F78800C4080F /* RLPictureView.m */; };
+		CCCB3FD41D88F78800C4080F /* RLPreviewPicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB3FD01D88F78800C4080F /* RLPreviewPicturesViewController.m */; };
+		CCCB3FD51D88F78800C4080F /* UIView+RLSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB3FD21D88F78800C4080F /* UIView+RLSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,17 @@
 		CCCB3FB61D88F74D00C4080F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCCB3FB91D88F74D00C4080F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCCB3FBB1D88F74D00C4080F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCB3FC21D88F76900C4080F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CCCB3FC31D88F76900C4080F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CCCB3FC41D88F76900C4080F /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CCCB3FC51D88F76900C4080F /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CCCB3FC61D88F76900C4080F /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		CCCB3FCD1D88F78800C4080F /* RLPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLPictureView.h; sourceTree = "<group>"; };
+		CCCB3FCE1D88F78800C4080F /* RLPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLPictureView.m; sourceTree = "<group>"; };
+		CCCB3FCF1D88F78800C4080F /* RLPreviewPicturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLPreviewPicturesViewController.h; sourceTree = "<group>"; };
+		CCCB3FD01D88F78800C4080F /* RLPreviewPicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLPreviewPicturesViewController.m; sourceTree = "<group>"; };
+		CCCB3FD11D88F78800C4080F /* UIView+RLSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RLSize.h"; sourceTree = "<group>"; };
+		CCCB3FD21D88F78800C4080F /* UIView+RLSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RLSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +61,7 @@
 		CCCB3F9E1D88F74D00C4080F = {
 			isa = PBXGroup;
 			children = (
+				CCCB3FCC1D88F78800C4080F /* RLPreviewPicture */,
 				CCCB3FA91D88F74D00C4080F /* RLPicturePreview */,
 				CCCB3FA81D88F74D00C4080F /* Products */,
 			);
@@ -74,9 +94,35 @@
 		CCCB3FAA1D88F74D00C4080F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCCB3FC11D88F76900C4080F /* images */,
 				CCCB3FAB1D88F74D00C4080F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCCB3FC11D88F76900C4080F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CCCB3FC21D88F76900C4080F /* 1.jpg */,
+				CCCB3FC31D88F76900C4080F /* 2.jpg */,
+				CCCB3FC41D88F76900C4080F /* 3.jpg */,
+				CCCB3FC51D88F76900C4080F /* 4.jpg */,
+				CCCB3FC61D88F76900C4080F /* 5.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CCCB3FCC1D88F78800C4080F /* RLPreviewPicture */ = {
+			isa = PBXGroup;
+			children = (
+				CCCB3FCD1D88F78800C4080F /* RLPictureView.h */,
+				CCCB3FCE1D88F78800C4080F /* RLPictureView.m */,
+				CCCB3FCF1D88F78800C4080F /* RLPreviewPicturesViewController.h */,
+				CCCB3FD01D88F78800C4080F /* RLPreviewPicturesViewController.m */,
+				CCCB3FD11D88F78800C4080F /* UIView+RLSize.h */,
+				CCCB3FD21D88F78800C4080F /* UIView+RLSize.m */,
+			);
+			path = RLPreviewPicture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCCB3FBA1D88F74D00C4080F /* LaunchScreen.storyboard in Resources */,
+				CCCB3FCB1D88F76900C4080F /* 5.jpg in Resources */,
+				CCCB3FCA1D88F76900C4080F /* 4.jpg in Resources */,
+				CCCB3FC71D88F76900C4080F /* 1.jpg in Resources */,
+				CCCB3FC81D88F76900C4080F /* 2.jpg in Resources */,
+				CCCB3FC91D88F76900C4080F /* 3.jpg in Resources */,
 				CCCB3FB71D88F74D00C4080F /* Assets.xcassets in Resources */,
 				CCCB3FB51D88F74D00C4080F /* Main.storyboard in Resources */,
 			);
@@ -150,8 +201,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCCB3FB21D88F74D00C4080F /* ViewController.m in Sources */,
+				CCCB3FD51D88F78800C4080F /* UIView+RLSize.m in Sources */,
 				CCCB3FAF1D88F74D00C4080F /* AppDelegate.m in Sources */,
+				CCCB3FD41D88F78800C4080F /* RLPreviewPicturesViewController.m in Sources */,
 				CCCB3FAC1D88F74D00C4080F /* main.m in Sources */,
+				CCCB3FD31D88F78800C4080F /* RLPictureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
